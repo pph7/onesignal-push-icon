@@ -1,0 +1,37 @@
+{
+  "name": "onesignal-push-icon",
+  "version": "0.1.0",
+  "description": "Automatic push icon creation for android",
+  "main": "index.js",
+  "preferGlobal": true,
+  "directories": {
+    "bin": "./bin"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pph7/onesignal-push-icon.git"
+  },
+  "keywords": [
+    "onesignal",
+    "icon",
+    "push",
+    "resize"
+  ],
+  "author": "Mark Kessler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pph7/onesignal-push-icon/issues"
+  },
+  "homepage": "https://github.com/pph7/onesignal-push-icon",
+  "dependencies": {
+    "colors": "^0.6.2",
+    "fs-extra": "^0.30.0",
+    "imagemagick": "^0.1.3",
+    "minimist": "^1.2.0",
+    "q": "^1.0.1",
+    "underscore": "^1.6.0"
+  }
+}
