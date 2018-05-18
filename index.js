@@ -63,7 +63,7 @@ var getSDKSettings = function () {
     },
     phonegap : {
       name : 'PhoneGap Build (PGB)',
-      iconsPath : 'locales/android',
+      iconsPath : 'locales/android/',
       icons : [
         { name : 'drawable-mdpi/ic_stat_onesignal_default.png',  size : 24 },
         { name : 'drawable-hdpi/ic_stat_onesignal_default.png',  size : 36 },
